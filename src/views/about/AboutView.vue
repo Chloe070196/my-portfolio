@@ -1,19 +1,9 @@
 <script lang="ts" setup>
 import TimeLineVue from '../../components/TimeLine.vue';
+import { timeLine } from './contents'
 </script>
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <TimeLineVue />
+    <TimeLineVue :timeLine="timeLine"/>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
