@@ -1,43 +1,48 @@
 const projects = [
   {
-    title: 'project 1',
-    stack: ['JS', 'Taliwind', 'React'],
+    title: 'Lesson booking website',
+    stack: ['JS', 'Tailwind', 'React'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
     imageUrl: '',
     imageDescription: '',
-
+    tags: {
+      deployed: false,
+      current: true,
+      frontEnd: true,
+      backend: false
+    }
   },
   {
-    title: 'project 2',
-    stack: ['JS', 'Taliwind', 'React'],
+    title: 'English learning app',
+    stack: ['JS', 'React Native'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
     imageUrl: '',
     imageDescription: '',
-
+    tags: {
+      deployed: false,
+      current: false,
+      frontEnd: true,
+      backend: true
+    }
   },
   {
-    title: 'project 3',
+    title: 'TBC',
     stack: ['JS', 'Taliwind', 'React'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
     imageUrl: '',
     imageDescription: '',
-
-  },
-  {
-    title: 'project 4',
-    stack: ['JS', 'Taliwind', 'React'],
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
-    gitHubUrl: '',
-    imageUrl: '',
-    imageDescription: '',
-
+    tags: {
+      deployed: true,
+      current: true,
+      frontEnd: true,
+      backend: true
+    }
   }
 ]
 
