@@ -3,7 +3,19 @@
 <template>
     <section>
         <h1>Chloé Zermatten</h1>
-        <h3>Full-stack software developer</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem similique quasi sint, sit repudiandae nemo ad deleniti molestiae quia, laborum ut corrupti eos totam quos aspernatur dolorem. Optio, laborum ipsum!</p>
+        <h2>Full-stack software developer</h2>
+        <p>I love a good brain-teaser, and enjoy collaborating with clients and co-workers to find effective and innovative solutions to real-life problems.</p>
+        <p>Based in the UK</p>
+        <p>Fully proficient in English and French</p>
     </section>
 </template>
+
+<style scoped>
+    h1 {
+        font-size: 32px;
+        line-height: 34px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+        margin-bottom: 5px;
+    }
+</style>
