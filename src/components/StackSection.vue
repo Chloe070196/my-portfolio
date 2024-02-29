@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 <template>
     <section>
-        <h3>Stack</h3>
+        <h2>Stack</h2>
         <p>HTML, CSS, JS</p>
         <p>React, Vue.js, Express.js</p>
         <p>Tailwind</p>
@@ -15,5 +15,6 @@
 <style>
 p {
    padding-left: 32px; 
+   margin: 0;
 }
 </style>

@@ -18,6 +18,7 @@ import NavBar from './NavBar.vue';
         top: 0;
         margin: 20px;
         width: 340px;
+        height: 100vh;
     }
 </style>
 

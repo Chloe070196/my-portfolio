@@ -9,3 +9,10 @@ import { RouterLink } from 'vue-router';
         <RouterLink to="/projects">Projects</RouterLink>
     </section>
 </template>
+
+<style scope>
+    section {
+        padding: 12px 0;
+        margin: 0;
+    }
+</style>

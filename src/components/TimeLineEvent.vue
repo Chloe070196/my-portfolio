@@ -28,7 +28,7 @@ const { title, location, organisation, qualification, description, skills } = pr
 <style scoped>
 section {
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 3fr 5fr;
     padding: 10px 20px;
 }
 </style>
