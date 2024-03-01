@@ -1,17 +1,16 @@
 <script setup lang="ts">
-
+import { inject } from 'vue';
+const { global: { t } } = inject('i18n')
 </script>
 
 <template>
   <section>
-    <h2>Welcome!</h2>
-    <p> I'm Chloé, a former Senior EFL* Teacher with 4 years of professional experience working for private language
-      centers, and now embarquing on a new and exciting adventure as a Full-Stack Software Developer.</p>
-    <p> My life-long interest in how we learn and communicate as led me to become a BsC Psychology graduate, then a
-      language teacher, and now a Full-Stack Software Developer.</p>
-    <p>I like to build learning tools, and would love to work for a company that focuses either on education, or
-      communication, or both!</p>
-    <a> Get in touch! </a>
+    <div class="dark-shadow-top"></div>
+    <div class="shadow-top"></div>
+    <h2>{{ t('welcome') }}</h2>
+    <p>{{ t('aboutExp') }}</p>
+    <p>{{ t('aboutMotivation') }}</p>
+    <p>{{ t('aboutEmployeurPreference') }}</p>
     <p>*English as a Foreign Language</p>
   </section>
 </template>

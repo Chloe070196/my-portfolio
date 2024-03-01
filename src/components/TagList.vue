@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { inject } from 'vue';
+const { global: { t } } = inject('i18n')
 import type { TagType } from '@/types';
 
 const props = defineProps<{
@@ -8,12 +10,12 @@ const { deployed, current, frontEnd, backend } = props.tags
 </script>
 
 <template>
-    <section>
+    <section class="tag-list">
         <div v-if="current" class="tag">
-            <p>current</p>
+            <p>{{ t('current') }}</p>
         </div>
         <div v-if="deployed" class="tag">
-            <p>deployed</p>
+            <p>{{ t('deployed') }}</p>
         </div>
         <div v-if="frontEnd" class="tag">
             <p>front-end</p>
@@ -25,11 +27,11 @@ const { deployed, current, frontEnd, backend } = props.tags
 </template>
 
 <style scoped>
-section {
+.tag-list {
     display: grid;
     grid-template-columns: repeat(4, 70px);
     gap: 20px;
-    width: fit-content;
+    border-top: 1px solid rgba(255, 255, 255, 0.267);
 }
 
 .tag {
@@ -39,6 +41,7 @@ section {
     background-color: rgba(255, 255, 255, 0.082);
     border-radius: 6px;
 }
+
 .tag > p {
     place-self: center;
     font-size: 14px;
