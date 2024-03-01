@@ -7,7 +7,7 @@ import type { TagType } from '@/types';
 const props = defineProps<{
     tags: TagType
 }>()
-const { deployed, current, frontEnd, backend } = props.tags
+const { deployed, current, frontend, backend } = props.tags
 </script>
 
 <template>
@@ -18,7 +18,7 @@ const { deployed, current, frontEnd, backend } = props.tags
         <div v-if="deployed" class="tag">
             <p>{{ t('deployed') }}</p>
         </div>
-        <div v-if="frontEnd" class="tag">
+        <div v-if="frontend" class="tag">
             <p>front-end</p>
         </div>
         <div v-if="backend" class="tag">

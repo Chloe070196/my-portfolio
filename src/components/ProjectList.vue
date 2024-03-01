@@ -1,12 +1,6 @@
 <script setup lang="ts">
-import type { ProjectCardType } from '@/types';
 import ProjectCard from './ProjectCard.vue';
-
-const props = defineProps<{
-    projects: ProjectCardType[]
-}>()
-
-const { projects } = props
+import projects from '../views/projects/contents';
 </script>
 
 <template>

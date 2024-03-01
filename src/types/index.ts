@@ -1,7 +1,7 @@
 type TagType = {
   deployed: boolean
   current: boolean
-  frontEnd: boolean
+  frontend: boolean
   backend: boolean
 }
 
@@ -9,7 +9,7 @@ type ProjectCardType = {
   title: string
   stack: string[]
   description: string
-  gitHubLink: string
+  gitHubUrl: string
   imageUrl: string
   imageDescription: string
   tags: TagType
@@ -34,4 +34,4 @@ type PeriodType = {
   occupations: OccupationType[]
 }
 
-export type { ProjectCardType, SkillType, PeriodType, OccupationType, TagType}
+export type { ProjectCardType, SkillType, PeriodType, OccupationType, TagType }

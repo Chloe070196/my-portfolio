@@ -10,7 +10,7 @@ const projects = [
     tags: {
       deployed: false,
       current: true,
-      frontEnd: true,
+      frontend: true,
       backend: false
     }
   },
@@ -25,7 +25,7 @@ const projects = [
     tags: {
       deployed: false,
       current: false,
-      frontEnd: true,
+      frontend: true,
       backend: true
     }
   },
@@ -40,7 +40,7 @@ const projects = [
     tags: {
       deployed: true,
       current: true,
-      frontEnd: true,
+      frontend: true,
       backend: true
     }
   }

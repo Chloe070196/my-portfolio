@@ -4,7 +4,7 @@ import TagList from "./TagList.vue";
 const props = defineProps<{
     projectCard: ProjectCardType
 }>()
-const { title, stack, description, gitHubLink, imageUrl, imageDescription, tags } = props.projectCard
+const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags } = props.projectCard
 </script>
 
 <template>
@@ -22,7 +22,7 @@ const { title, stack, description, gitHubLink, imageUrl, imageDescription, tags 
                 <p>{{ description }}</p>
             </div>
             <TagList :tags="tags"/>
-            <a :href="gitHubLink">GitHub Repository</a>
+            <a :href="gitHubUrl">GitHub Repository</a>
         </div>
         <div class="proj-img-wrapper">
             <img :href="imageUrl" :alt=" imageDescription"/>
