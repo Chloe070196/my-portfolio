@@ -2,6 +2,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { provide } from 'vue'
 
 const app = createApp(App)
 app.use(router)
@@ -18,7 +19,6 @@ const i18n = createI18n({
     messages,
 })
 app.use(i18n)
-console.log(i18n)
-
+app.provide('i18n', i18n)
 // mount the app
 app.mount('#app')
