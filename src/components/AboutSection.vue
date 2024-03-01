@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { inject } from 'vue';
+// @ts-ignore
 const { global: { t } } = inject('i18n')
 </script>
 <template>

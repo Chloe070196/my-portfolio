@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { RouterLink } from 'vue-router';
 import { inject } from 'vue'
+// @ts-ignore
 const { global: { t } } = inject('i18n')
 </script>
 
