@@ -22,5 +22,6 @@ article {
     display: grid;
     grid-template-columns: 80px 1fr;
     padding: 10px 20px;
+    z-index: 0;
 }
 </style>

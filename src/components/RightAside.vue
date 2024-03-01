@@ -14,10 +14,10 @@ import NavBar from './NavBar.vue';
 <style>
     aside {
         position: fixed;
-        right: 20px;
+        right: 0;
         top: 0;
-        margin: 20px;
-        width: 340px;
+        margin: 8px 20px;
+        width: 360px;
         height: 100vh;
     }
 </style>

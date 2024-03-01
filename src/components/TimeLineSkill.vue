@@ -12,3 +12,9 @@ const { name, descr } = props.skill
         <p>{{ descr }}</p>
     </div>
 </template>
+
+<style scoped>
+ div, h5, p {
+    z-index: 0;
+ }
+</style>
