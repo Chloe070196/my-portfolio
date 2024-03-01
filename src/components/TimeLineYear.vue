@@ -12,7 +12,7 @@ const { period } = props
     <article>
         <h2>{{ period.years }}</h2>
         <section>
-            <TimeLineEvent v-for="occupation in period.occupationList" v-bind:key="occupation.title" :occupation="occupation" />
+            <TimeLineEvent v-for="occupation in period.occupations" v-bind:key="occupation.title" :occupation="occupation" />
         </section>
     </article>
 </template>

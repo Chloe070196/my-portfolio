@@ -1,10 +1,6 @@
 <script lang="ts" setup>
 import TimeLineYear from './TimeLineYear.vue';
-import type { PeriodType } from '@/types';
-const props = defineProps<{
-    timeLine: PeriodType[]
-}>()
-const { timeLine }= props
+import { timeLine }from '../views/about/contents'
 </script>
 
 <template>

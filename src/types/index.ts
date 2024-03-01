@@ -31,6 +31,7 @@ type OccupationType = {
 
 type PeriodType = {
   years: string
-  occupationList: OccupationType[]
+  occupations: OccupationType[]
 }
-export type { ProjectCardType, SkillType, PeriodType, OccupationType, TagType }
+
+export type { ProjectCardType, SkillType, PeriodType, OccupationType, TagType}
