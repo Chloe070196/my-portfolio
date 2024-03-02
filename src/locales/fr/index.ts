@@ -8,7 +8,7 @@ const fr = {
   based: "basée au Royaume Uni",
   current: "en cours",
   deployed: "déployé",
-  getIntouch: "Prendre contact",
+  getInTouch: "Prendre contact",
   proficiency: "bilingue français-anglais",
   projects: "Projets",
   softDev: "Développeuse Full-Stack",

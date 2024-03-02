@@ -7,7 +7,7 @@ const en = {
   based: 'Based in the UK',
   current: 'on-going',
   deployed: 'deployed',
-  getIntouch: 'Get in touch',
+  getInTouch: 'Get in touch',
   proficiency: 'Fully proficient in English and French', 
   projects: 'Projects',
   softDev: 'Full-Stack Software Developer',
