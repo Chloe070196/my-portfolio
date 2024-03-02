@@ -2,11 +2,13 @@
 import { RouterView } from 'vue-router'
 import RightAside from './components/RightAside.vue';
 import ToggleLocale from './components/ToggleLocale.vue';
+import NavBar from './components/NavBar.vue';
 </script>
 
 
 <template>
   <main>
+    <NavBar />
     <RightAside />
     <RouterView />
     <div class="website-info">

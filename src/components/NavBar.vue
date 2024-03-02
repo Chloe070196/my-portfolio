@@ -19,8 +19,9 @@ const { global: { t } } = inject('i18n')
     margin: 0;
     display: grid;
     grid-template-columns: repeat(3, 120px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.541);
-
+    position: fixed;
+    top: 0;
+    right: 410px;
 }
 a {
     color: rgb(255, 255, 205);
