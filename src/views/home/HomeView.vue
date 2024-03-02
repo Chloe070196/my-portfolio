@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router';
 import { inject } from 'vue';
 // @ts-ignore
 const { global: { t } } = inject('i18n')
@@ -13,6 +14,7 @@ const { global: { t } } = inject('i18n')
     <p>{{ t('aboutMotivation') }}</p>
     <p>{{ t('aboutEmployeurPreference') }}</p>
     <p>*English as a Foreign Language</p>
+    <RouterLink to="/contact" class="contact-link"><strong>{{ t('getInTouch') }}</strong></RouterLink>
   </section>
 </template>
 
@@ -20,5 +22,6 @@ const { global: { t } } = inject('i18n')
 section {
   padding: 32px;
   width: 560px;
+  position: relative;
 }
 </style>
