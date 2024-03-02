@@ -9,7 +9,6 @@ const toggleLocale = () => {
         // @ts-ignore
         i18n.global.locale = 'fr'
         alternativeLocaleOption.value = 'Switch to english'
-        console.log(alternativeLocaleOption)
         return
     }
     // @ts-ignore
@@ -17,7 +16,6 @@ const toggleLocale = () => {
         // @ts-ignore
         i18n.global.locale = 'en'
         alternativeLocaleOption.value = 'Site en français'
-        console.log(alternativeLocaleOption)
     }
 }
 </script>
