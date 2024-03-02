@@ -10,14 +10,14 @@ const { title, location, organisation, qualification, description, skills } = pr
 <template>
     <section>
         <div>
-            <h4>{{ organisation }}</h4>
-            <h3>{{ title }}</h3>
+            <h3>{{ organisation }}</h3>
+            <h2>{{ title }}</h2>
             <p>{{ description }}</p>
             <p>{{ qualification }}</p>
             <p>{{ location }}</p>
         </div>
         <ul>
-            <p>Skills</p>
+            <p>SKILLS</p>
             <li>
                 <TimeLineSkill v-for="skill in skills" v-bind:key="skill.name" :skill="skill" />
             </li>

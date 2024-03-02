@@ -8,7 +8,7 @@ const { name, descr } = props.skill
 
 <template>
     <div>
-        <h5>{{ name }}</h5>
+        <strong>{{ name }}</strong>
         <p>{{ descr }}</p>
     </div>
 </template>
@@ -16,5 +16,21 @@ const { name, descr } = props.skill
 <style scoped>
  div, h5, p {
     z-index: 0;
+    margin: 0;
+ }
+ div {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 8px;
+    padding: 2px;
+    margin-bottom: 12px;;
+ }
+ strong {
+    align-self: center;
+ }
+
+ p {
+    font-size: 12px;
+    line-height: 14px;
  }
 </style>

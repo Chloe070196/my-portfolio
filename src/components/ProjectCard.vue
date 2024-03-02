@@ -13,9 +13,10 @@ const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags }
             <div class="proj-descr-wrapper">
                 <div>
                     <h3>{{ title }}</h3>
+                    <h4>STACK</h4>
                     <ul class="inline-list">
                         <li v-for="item in stack" v-bind:key="item">
-                            <h6>{{ item }}</h6>
+                            <strong>{{ item }}</strong>
                         </li>
                     </ul>
                 </div>
@@ -62,5 +63,10 @@ const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags }
         background-color: rgb(255, 255, 205);
         padding: 2px;
         width: 110px;
+    }
+    h4 {
+        padding: 8px 0;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.671);
     }
 </style>

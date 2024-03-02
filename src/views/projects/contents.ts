@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Lesson booking website',
-    stack: ['JS', 'Tailwind', 'React'],
+    stack: ['js', 'tailwind', 'react'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: 'English learning app',
-    stack: ['JS', 'React Native'],
+    stack: ['js', 'react native'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: 'TBC',
-    stack: ['JS', 'Taliwind', 'React'],
+    stack: ['js', 'tailwind', 'react'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
     gitHubUrl: '',
