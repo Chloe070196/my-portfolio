@@ -13,7 +13,8 @@
       <label>Contact details
          <input type="text" name="contact_preferences">
       </label>
-      <button type="submit" class="contact-link"><strong>Send</strong></button>
+      <strong class="tbc">form still in construction</strong>
+      <button type="submit" class="contact-link" disabled><strong>Send</strong></button>
    </form>
 </template>
 <style>
@@ -43,5 +44,6 @@ button {
    right: 20px;
    bottom: 20px;
    border: 1px white solid;
+   padding: 10px;
 }
 </style>

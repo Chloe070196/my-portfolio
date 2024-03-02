@@ -159,3 +159,18 @@ a, button {
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(0.75turn, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0.452));
 }
+
+/* TEMPORARY STYLES */
+button:disabled {
+    background-color: grey;
+    filter: blur(1px);
+    pointer-events: none;
+ }
+
+ .tbc {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    border: 1px white solid;
+    padding: 10px;
+ }
