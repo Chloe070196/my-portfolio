@@ -7,9 +7,13 @@
 
 /* HEADERS, PARAGRAPHS, LINKS */
 h1 {
-    font-size: 34px;
+    display: grid;
+    font-size: 38px;
     line-height: 34px;
-    padding: 28px 0 10px 0;
+    height: 40px;
+    padding: 24px 0 8px 0;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.199);
     color: rgba(252, 252, 252, 0.836);
 }
 h2 {
@@ -61,7 +65,27 @@ p {
     color: rgba(255, 253, 244, 0.904);
 }
 
+.contact-link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    padding: 4px 6px;
+    background: rgba(0, 0, 0, 0.438);
+    place-content: center;
+}
 
+.contact-link:hover {
+    background-color: rgb(255, 255, 205);
+}
+
+.contact-link:hover strong {
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
 
 /* CONTAINERS */
 ul {
