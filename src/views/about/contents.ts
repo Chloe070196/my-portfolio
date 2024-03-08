@@ -133,13 +133,13 @@ const timeLine = [
         title: 'Undergraduate Pschology Student',
         location: 'online',
         organisation: 'Unidistance',
-        description: '',
-        qualification: '',
+        description: "Thesis: LA TCC EN LIGNE POUR LES TROUBLES DE L’HUMEUR ET TROUBLES ANXIEUX : EFFICACITÉ ET CONSIDÉRATIONS PRATIQUES",
+        qualification: 'Bachelor of Science in Psychology obtained on 04 September 2021',
         skills: [
           {
-            name: 'stress management',
+            name: '',
             descr:
-              'working a full-time job in a field I was unfamiliar with whilst simultaneoulsy carrying on with my studies was challenging, and I developped various strategies to prevent and handle stress.'
+              ''
           }
         ]
       }
@@ -177,13 +177,7 @@ const timeLine = [
         organisation: 'Unidistance Suisse',
         description: '',
         qualification: '',
-        skills: [
-          { name: 'reading and understanding academic papers', descr: '' },
-          { name: 'reasearch and academic writing', descr: '' },
-          { name: 'self-guided learning', descr: '' },
-          { name: 'statistical analysis', descr: '' },
-          { name: 'differential diagnosis and case formulation (introduction)', descr: '' }
-        ]
+        skills: [{ name: '', descr: '' }]
       }
     ]
   },
