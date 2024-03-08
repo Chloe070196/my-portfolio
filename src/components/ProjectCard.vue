@@ -26,7 +26,7 @@ const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags }
             <a :href="gitHubUrl">GitHub Repository</a>
         </div>
         <div class="proj-img-wrapper">
-            <img :href="imageUrl" :alt=" imageDescription"/>
+            <img class="proj-img" :src="imageUrl" :alt=" imageDescription"/>
         </div>
     </section>
 </template>
@@ -37,6 +37,12 @@ const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags }
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
         padding: 12px;
+    }
+    .proj-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
     }
     .proj-img-wrapper {
         height: 280px;
