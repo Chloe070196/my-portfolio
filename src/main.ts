@@ -13,7 +13,7 @@ import { en } from './locales/en/index'
 
 const messages = { fr, en }
 const i18n = createI18n({
-    locale: 'fr',
+    locale: 'en',
     fallbackLocale: 'fr',
     messages,
 })
