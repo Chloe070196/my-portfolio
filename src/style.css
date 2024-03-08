@@ -174,3 +174,78 @@ button:disabled {
     border: 1px white solid;
     padding: 10px;
  }
+
+ @media screen and (max-device-width : 720px) {
+    * {
+        position: relative;
+    }
+
+    main {
+        display: grid;
+        position: relative;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        margin-bottom: 40px;
+        padding: 12px;
+        width: calc(100vw - 24px);
+        background: linear-gradient(0.07turn, rgb(10, 5, 17), rgb(25, 12, 43), rgb(36, 17, 61), rgb(40, 21, 75), rgb(60, 27, 97));;
+    }
+
+    #app {
+        width: 100vw;
+    }
+
+    aside {
+        position: relative;
+        margin-top: 140px;
+        z-index: 0;
+    }
+
+    section {
+        max-width: 90vw;
+        padding: 8px;
+    }
+    p {
+        max-width: 80vw;
+    }
+
+    #navbar {
+        position: fixed;
+        display: grid;
+        grid-template-rows: repeat(3, 20px);
+        gap: 12px;
+        grid-template-columns: 1fr;
+        top: 4px;
+        right: 4px;
+        background-color: rgba(0, 0, 0, 0.699);
+        height: 100px;
+        width: 130px;
+        border-radius: 5px;
+        border: 3px solid rgba(255, 255, 255, 0.5);
+        z-index: 30;
+    }
+
+    .scrollable, .scrollable-wrapper {
+        position: relative;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: fit-content;
+        width: calc(100vw - 24px);
+    }
+
+    h2 {
+        width: fit-content;
+    }
+
+    p[data-v-40382805] {
+        display: none;
+        visibility: hidden;
+    }
+
+    .dark-shadow-top, .shadow-top {
+        display: none;
+        visibility: hidden;
+    }
+}

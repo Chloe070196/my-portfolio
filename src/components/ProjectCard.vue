@@ -69,4 +69,45 @@ const { title, stack, description, gitHubUrl, imageUrl, imageDescription, tags }
         font-weight: 600;
         color: rgba(255, 255, 255, 0.671);
     }
+
+    @media screen and (max-device-width : 720px) {
+    section {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .proj-img-wrapper {
+        height: 280px;
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.411);
+    }
+    .proj-info-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-rows: 160px minmax(32px, 64px) 32px;
+        gap: 4px;
+        width: 90vw;
+    } 
+    .proj-descr-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    a {
+        position: absolute;
+        bottom: 2px;
+        left: 2px;
+        font-weight: bold;
+        font-size: 12px;
+        color: rgb(53, 24, 87);
+        background-color: rgb(255, 255, 205);
+        padding: 2px;
+        width: 110px;
+    }
+    h4 {
+        padding: 8px 0;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.671);
+    }
+    }
 </style>
