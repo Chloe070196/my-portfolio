@@ -5,7 +5,7 @@ const projects = [
     description:
       'A website where visitors can access a calendar, check lesson times, and make booking requests. Currently in development.',
     gitHubUrl: '',
-    imageUrl: 'src/assets/preview_calendar.png',
+    imageUrl: 'https://github.com/Chloe070196/my-portfolio/blob/main/src/assets/preview_calendar.png?raw=true',
     imageDescription: '',
     tags: {
       deployed: false,
