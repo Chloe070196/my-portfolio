@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { inject } from 'vue';
+import DownloadCV from './DownloadCV.vue';
 // @ts-ignore
 const { global: { t } } = inject('i18n')
 </script>
@@ -10,7 +11,8 @@ const { global: { t } } = inject('i18n')
         <p>{{ t('aboutJobPreference') }}</p>
         <p>{{ t('based') }}</p>
         <p>{{ t('proficiency') }}</p>
-        <a class="linkedInLink" href="https://linkedin.com/in/chloé-z-77b1a2184"><strong>LinkedIn profile</strong></a>
+        <a class="smallLink" href="https://linkedin.com/in/chloé-z-77b1a2184"><strong>LinkedIn profile</strong></a>
+        <DownloadCV class="smallLink"/>
         <RouterLink class="contact-link" to="/contact"><strong>{{ t('getInTouch') }}</strong></RouterLink>
     </section>
 </template>
@@ -20,7 +22,7 @@ section {
     height: 320px;
     position: relative;
 }
-.linkedInLink {
+.smallLink {
     position: absolute;
     left: 12px;
     width: 120px;
