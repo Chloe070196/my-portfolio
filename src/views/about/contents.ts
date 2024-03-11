@@ -52,7 +52,7 @@ const timeLine = [
         location: 'Brno, Czech Republic',
         organisation: 'ILC Brno',
         description:
-          "I kept teaching, and trained newly-hired teacher and was responsible for updating and running the school's internal training programme. I also observed lessons, gave feedback, and provide mentoring sessions.",
+          "I kept teaching, and trained newly-hired teachers and was responsible for updating and running the school's internal training programme. I also observed lessons, gave feedback, and provide mentoring sessions.",
         qualification: '',
         skills: [
           {
