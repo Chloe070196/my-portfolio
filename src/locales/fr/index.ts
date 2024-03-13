@@ -4,7 +4,7 @@ const fr = {
   aboutExp: "Avec 4 ans d'expérience en tant qu'enseignante de l'anglais language secondaire à l'étranger, puis 6 mois de formation intensive en Software Development avec Boolean UK, je me tourne maintenant vers le dévelopement d'application (Full Stack)",
   aboutJobPreference:
     "Ce qui me plaît dans le travail, c'est collaborer avec mes collègues pour trouver et implémenter des solutions efficaces et innovantes. Je suis toujours prête à me lancer dans un nouveau challenge.",
-  aboutMotivation: "Je me suis toujours intéressée à l'apprentissage et à la communication, ce qui m'a d'abord amenée à obtenir un BsC Psychology, puis à enseigner, et enfin à me former en tant que développeuse Full-Stack.",
+  aboutMotivation: "Je me suis toujours intéressée à l'apprentissage et à la communication, ce qui m'a d'abord amenée à obtenir un BsC Psychology, puis à enseigner, et enfin à me former en tant que développeuse Full-Stack et continuer d'investir dans mon dévelopement professionel.",
   based: "basée au Royaume Uni",
   current: "en cours",
   deployed: "déployé",
