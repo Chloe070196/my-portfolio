@@ -86,8 +86,14 @@ p {
     font-size: 14px;
     transition-duration: 0.5s;
 }
+a {
+    place-self: start;
+}
 
 /* CONTAINERS */
+main {
+    display: grid;
+}
 ul {
     list-style: none;
 }
