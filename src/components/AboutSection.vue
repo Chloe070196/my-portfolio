@@ -23,9 +23,14 @@ section {
     position: relative;
 }
 .smallLink {
-    position: absolute;
+    display: grid;
+    place-content: start;
+    position: relative;
+    top:0;
     left: 12px;
     width: 120px;
     text-decoration: underline;
+    margin: 0;
+    padding: 4px;
 }
 </style>
