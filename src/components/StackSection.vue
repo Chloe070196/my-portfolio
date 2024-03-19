@@ -16,31 +16,31 @@ const { global: { t } } = inject('i18n')
         </div>
         <div class="six-rows">
             <div>
-                <img src="..\assets\svg\js-official-svgrepo-com.svg" />
-                <img src="..\assets\svg\typescript-officiaL-svgrepo-com.svg" />
+                <img src="@/assets/svg/js-official-svgrepo-com.svg" />
+                <img src="@\assets\svg\typescript-official-svgrepo-com.svg" />
             </div>
             <div>
-                <img src="..\assets\svg\html-svgrepo-com.svg" title="html" alt="html-logo" />
-                <img src="..\assets\svg\css-svgrepo-com.svg" title="css" alt="css-logo" />
-                <img src="..\assets\svg\reactjs-svgrepo-com.svg" title="reactjs" alt="reactjs-logo" />
-                <img src="..\assets\svg\vue-svgrepo-com.svg" title="vue" alt="vue-logo" />
+                <img src="@\assets\svg\html-svgrepo-com.svg" title="html" alt="html-logo" />
+                <img src="@\assets\svg\css-svgrepo-com.svg" title="css" alt="css-logo" />
+                <img src="@\assets\svg\reactjs-svgrepo-com.svg" title="reactjs" alt="reactjs-logo" />
+                <img src="@\assets\svg\vue-svgrepo-com.svg" title="vue" alt="vue-logo" />
             </div>
             <div>
-                <img src="..\assets\svg\sql-svgrepo-com.svg" title="sql" alt="sql-logo" />
-                <img src="..\assets\svg\pgsql-svgrepo-com.svg" title="pgsql" alt="pgsql-logo" />
-                <img src="..\assets\svg\light-prisma-svgrepo-com.svg" title="prisma" alt="prisma-logo" />
-                <img src="..\assets\svg\nestjs-svgrepo-com.svg" title="nestjs" alt="nestjs-logo" />
-                <img src="..\assets\svg\expressjs-icon.svg" title="expressjs" alt="expressjs-logo" />
+                <img src="@\assets\svg\sql-svgrepo-com.svg" title="sql" alt="sql-logo" />
+                <img src="@\assets\svg\pgsql-svgrepo-com.svg" title="pgsql" alt="pgsql-logo" />
+                <img src="@\assets\svg\light-prisma-svgrepo-com.svg" title="prisma" alt="prisma-logo" />
+                <img src="@\assets\svg\nestjs-svgrepo-com.svg" title="nestjs" alt="nestjs-logo" />
+                <img src="@\assets\svg\expressjs-icon.svg" title="expressjs" alt="expressjs-logo" />
             </div>
             <div>
-                <img src="..\assets\svg\swagger-svgrepo-com.svg" title="swagger" alt="swagger-logo" />
-                <img src="..\assets\svg\markdown-svgrepo-com.svg" title="markdown" alt="markdown-logo" />
+                <img src="@\assets\svg\swagger-svgrepo-com.svg" title="swagger" alt="swagger-logo" />
+                <img src="@\assets\svg\markdown-svgrepo-com.svg" title="markdown" alt="markdown-logo" />
             </div>
             <div>
-                <img src="..\assets\svg\vscode2-svgrepo-com.svg" title="vscode" alt="vscode-logo" />
-                <img src="..\assets\svg\git-svgrepo-com.svg" title="git" alt="git-logo" />
-                <img src="..\assets\svg\github-142-svgrepo-com.svg" title="github" alt="github-logo" />
-                <img src="..\assets\svg\node-svgrepo-com.svg" title="node" alt="node-logo" />
+                <img src="@\assets\svg\vscode2-svgrepo-com.svg" title="vscode" alt="vscode-logo" />
+                <img src="@\assets\svg\git-svgrepo-com.svg" title="git" alt="git-logo" />
+                <img src="@\assets\svg\github-142-svgrepo-com.svg" title="github" alt="github-logo" />
+                <img src="@\assets\svg\node-svgrepo-com.svg" title="node" alt="node-logo" />
             </div>
             <div>
                 <p>conventional commits, DRY, SOLID, KISS </p>
