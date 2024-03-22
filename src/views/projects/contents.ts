@@ -1,12 +1,14 @@
 const projects = [
   {
     title: 'Lesson booking website',
-    stack: ['js', 'tailwind', 'react'],
+    stack: ['JavaScript', 'Tailwind', 'React'],
     description:
       'A website where visitors can access a calendar, check lesson times, and make booking requests. Currently in development.',
     gitHubUrl: '',
-    imageUrl: 'https://github.com/Chloe070196/my-portfolio/blob/main/src/assets/preview_calendar.png?raw=true',
+    imageUrl:
+      '/src/assets/png/preview_calendar.png',
     imageDescription: '',
+    projectPath: '/lesson-booking-project-walkthrough',
     tags: {
       deployed: false,
       current: true,
@@ -16,12 +18,13 @@ const projects = [
   },
   {
     title: 'English learning app',
-    stack: ['js', 'react native'],
+    stack: ['TypeScript', 'React', 'nestJS', 'prisma'],
     description:
       'This app is being built with English learners in mind. Once registered and logged in, they will be able to spent time leaning new English phrases, revising, or practising using what they have learnt.',
-    gitHubUrl: '',
-    imageUrl: '',
+    gitHubUrl: 'https://github.com/Chloe070196/phrases-web-app',
+    imageUrl: '/src/assets/png/preview_phrase_app_login.png',
     imageDescription: '',
+    projectPath: '/phrase-learning-app-walkthrough',
     tags: {
       deployed: false,
       current: true,
@@ -34,6 +37,7 @@ const projects = [
     stack: ['js', 'tailwind', 'react'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
+    projectPath: "/",
     gitHubUrl: '',
     imageUrl: '',
     imageDescription: '',
