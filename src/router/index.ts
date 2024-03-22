@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import ('../views/home/HomeView.vue')
+      component: () => import('../views/home/HomeView.vue')
     },
     {
       path: '/about',
@@ -22,6 +22,16 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/contact/ContactView.vue')
+    },
+    {
+      path: '/lesson-booking-project-walkthrough',
+      name: 'lesson-booking-project-walkthrough',
+      component: () => import('../views/lesson-booking-project/LessonBookingProjectWalkthrough.vue')
+    },
+    {
+      path: '/phrase-learning-app-walkthrough',
+      name: 'phrase-learning-app-walkthrough',
+      component: () => import('../views/phrase-learning-app/PhraseLearningAppWalkthrough.vue')
     }
   ]
 })

@@ -12,6 +12,7 @@ type ProjectCardType = {
   gitHubUrl: string
   imageUrl: string
   imageDescription: string
+  projectPath: string
   tags: TagType
 }
 
