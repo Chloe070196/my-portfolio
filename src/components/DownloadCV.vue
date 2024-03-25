@@ -1,4 +1,4 @@
 <template>
-    <a className="smallLink" href="src\assets\Chloé Zermatten_CV 2024.pdf"
+    <a className="smallLink" href="public\ChloeZermattenResume.pdf"
         download="CV-Chloe_Zermatten.pdf"><strong>download CV</strong></a>
 </template>
