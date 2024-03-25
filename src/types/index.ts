@@ -10,7 +10,7 @@ type ProjectCardType = {
   stack: string[]
   description: string
   gitHubUrl: string
-  imageUrl: string
+  imgName: string
   imageDescription: string
   projectPath: string
   tags: TagType

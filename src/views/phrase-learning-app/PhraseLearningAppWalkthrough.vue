@@ -44,7 +44,7 @@
                 <h3>Planning phase: user stories and ERD</h3>
                 <p>Having established what features I wanted as part of my MVP (minimum viable product), I moved on to figuring out what structure I would need my database to have. Since I wanted to have user get exposure to English phrases they had not encountered yet, as well as having the opportunity to review what they had learnt, and use them in writing practice (which is what usually happens in an EFL classroom), I came up with the following model, with the userphrase entity at its core: </p>
                 <div class="img-wrapper">
-                    <img src="@\assets\png\preview_phrase_app_erd.png" />
+                    <img src="\png\preview_phrase_app_erd.png" />
                 </div>
             </article>
             <article>
@@ -52,7 +52,7 @@
                 <p>Having created a user entity in my PostrgeSQL database using prisma, I moved on to implementing two auth endpoints: one for registration, and one for log in requests. The process was fairly straight forward, especially thanks to prisma classes being readily available in NestJS when working with TS. I went for storing the user's JWT in localStorage (seeing as its payload solely includes the username and user id), and built an authentication context and hook to make log in a registration methods available throughout my app.</p>
                 <p>I also added on-load checks to my pages so that, if a non-registered user somehow tried to access anything but the login or register page, they would immediately get re-directed to said log in page.</p>
                 <div class="img-wrapper">
-                    <img src="@\assets\png\preview_phrase_app_register.png"/>
+                    <img src="\png\preview_phrase_app_register.png"/>
                 </div>
             </article>
             <article>
@@ -69,7 +69,7 @@
                 <p>The canProceed state is set to true whenever the correct answer is selected, and resets after each question, meaning that the user is only able to proceed once they have figured out the answer.</p>
                 <p>Last but not least, upon an question being successfully answered, a userphrase object is created for the matching phrase. This means that the user will now be able to see that phrase on their revise page. It also means that they will not see this phrase again in the quiz, as my API endpoint ensures that only phrases that a user has never seen before are fetched from the database.</p>
                 <div class="img-wrapper">
-                    <img src="@\assets\png\preview_phrases_app_quiz.png" />
+                    <img src="\png\preview_phrases_app_quiz.png" />
                 </div>
             </article>
             <article>
@@ -77,7 +77,7 @@
                 <p>With any skill or bit of knowledge, what truly as an impact on learning progress is practice. And while the core of this app is its quiz, I still wanted to spend at least a bit of time developing a page that would allow the user to scroll through the phrases they have learnt, and have a go and using them in writing. I implemented a filter feature, as phrases are categorised by context of use.</p>
                 <p>I also included a checklist: ticking any boxes off means that the text is saved with references to the phrases used in it. I hope to come back to this project, and further expand on this feature. </p>
                 <div class="img-wrapper">
-                    <img src="@\assets\png\preview_phrase_app_practice_page.png" />
+                    <img src="\png\preview_phrase_app_practice_page.png" />
                 </div>
             </article>
             <article>

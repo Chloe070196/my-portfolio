@@ -5,8 +5,7 @@ const projects = [
     description:
       'A website where visitors can access a calendar, check lesson times, and make booking requests. Currently in development.',
     gitHubUrl: '',
-    imageUrl:
-      '/src/assets/png/preview_calendar.png',
+    imgName: 'preview_calendar.png',
     imageDescription: '',
     projectPath: '/lesson-booking-project-walkthrough',
     tags: {
@@ -22,7 +21,7 @@ const projects = [
     description:
       'This app is being built with English learners in mind. Once registered and logged in, they will be able to spent time leaning new English phrases, revising, or practising using what they have learnt.',
     gitHubUrl: 'https://github.com/Chloe070196/phrases-web-app',
-    imageUrl: '/src/assets/png/preview_phrase_app_login.png',
+    imgName: 'preview_phrase_app_login.png',
     imageDescription: '',
     projectPath: '/phrase-learning-app-walkthrough',
     tags: {
@@ -37,9 +36,9 @@ const projects = [
     stack: ['js', 'tailwind', 'react'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex, neque exercitationem in nobis dolore porro ratione nostrum aliquam at magnam, vitae perspiciatis possimus? Aspernatur eos perspiciatis natus eius cum.',
-    projectPath: "/",
+    projectPath: '/',
     gitHubUrl: '',
-    imageUrl: '',
+    imgName: '',
     imageDescription: '',
     tags: {
       deployed: true,

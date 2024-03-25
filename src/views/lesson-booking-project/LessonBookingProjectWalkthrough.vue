@@ -40,7 +40,7 @@
                 <h3>Building a home page</h3>
                 <p>I started by building a static homepage, including a navigation bar, and implementing routing</p>
                 <div className="img-wrapper">
-                    <img src="@\assets\png\preview hero_and_menu.png" />
+                    <img src="\png\preview hero_and_menu.png" />
                 </div>
                 <p>I then had to learn to work with date-fns in order to create a working calendar. We both agreed that
                     having a
@@ -48,7 +48,7 @@
                     make sense
                     to follow with a contact form, which is how I got to the following:</p>
                 <div className="img-wrapper">
-                    <img src="@\assets\png\preview_availability_and_contact_form.png" />
+                    <img src="\png\preview_availability_and_contact_form.png" />
                 </div>
             </article>
             <article>

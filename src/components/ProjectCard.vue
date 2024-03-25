@@ -1,11 +1,10 @@
 <script lang="ts" setup>
-import type { ProjectCardType } from "../types/index.ts"
+import type { ProjectCardType } from "../types/index"
 import TagList from "./TagList.vue";
 const props = defineProps<{
     projectCard: ProjectCardType,
 }>()
-const { title, stack, description, gitHubUrl, imageUrl, imageDescription, projectPath, tags } = props.projectCard
-const imgPath = new URL(`${imageUrl}`, import.meta.url).href;
+const { title, stack, description, gitHubUrl, imgName, imageDescription, projectPath, tags } = props.projectCard
 </script>
 <template>
     <section>
@@ -29,12 +28,16 @@ const imgPath = new URL(`${imageUrl}`, import.meta.url).href;
         </div>
         <RouterLink :to="projectPath">
             <div class="proj-img-wrapper">
-                <img class="proj-img" :src="imgPath" :alt="imageDescription" />
+                <img class="proj-img" :src="getImgUrl(imgName)" :alt="imageDescription" />
             </div>
         </RouterLink>
     </section>
 </template>
-
+<script lang="ts">
+    function getImgUrl(imgName: string) {
+        return `/png/${imgName}`
+    }
+</script>
 <style scoped>
 section {
     display: grid;
