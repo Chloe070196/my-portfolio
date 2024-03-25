@@ -30,6 +30,7 @@ const { title, stack, description, gitHubUrl, imgName, imageDescription, project
             <div class="proj-img-wrapper">
                 <img class="proj-img" :src="getImgUrl(imgName)" :alt="imageDescription" />
             </div>
+            <div class="blur-img"><strong>View</strong></div>
         </RouterLink>
     </section>
 </template>
@@ -39,6 +40,11 @@ const { title, stack, description, gitHubUrl, imgName, imageDescription, project
     }
 </script>
 <style scoped>
+
+a {
+    position: relative;
+    width: 460px;
+}
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,6 +63,36 @@ section {
     height: 280px;
     width: 460px;
     background-color: rgba(255, 255, 255, 0.411);
+}
+
+.blur-img {
+    position: absolute;
+    padding: 10px;
+    height: 260px;
+    width: 439px;
+    top: 6px;
+    left: 6px;
+    background: linear-gradient(0.11turn, rgb(0, 0, 0, 0),rgba(0, 0, 0, 0, 0));
+}
+
+.blur-img > strong{
+    position: absolute;
+    visibility: hidden;
+    top: 124px;
+    left: 178px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.blur-img:hover {
+    background: linear-gradient(0.11turn, rgb(0, 0, 0),rgba(0, 0, 0, 0.486));
+    backdrop-filter: blur(1px);
+    border: 1px solid white;
+}
+
+.blur-img:hover > strong {
+    visibility: unset;
+    transition:5s;
 }
 
 .proj-info-wrapper {
